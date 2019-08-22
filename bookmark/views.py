@@ -45,7 +45,3 @@ class BookmarkDelete(DeleteView):
     success_url = reverse_lazy('bookmark_list')
     #template_name_suffix = "_delete"
     template_name = 'bookmark/bookmark_delete.html'
-
-
-from django.contrib.auth.models import User
-User.objects.create_user()
